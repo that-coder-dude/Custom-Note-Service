@@ -35,4 +35,10 @@ Log in using those credentials.
 Create and view notes.
 Use the logout button to end your session.
 
+📸 Screenshots
+![Screenshot (36)](https://github.com/user-attachments/assets/a1d52f85-05d1-44c4-bb9e-51516735d37e)
+![Screenshot (37)](https://github.com/user-attachments/assets/1b98962a-07c6-4f5c-bfc9-def7210037b1)
+![Screenshot (38)](https://github.com/user-attachments/assets/3556fe9f-b091-42b2-ac3f-57d487c50670)
+![Screenshot (39)](https://github.com/user-attachments/assets/bc3c62d8-5d57-41a0-94e6-fdc0c1057a0a)
+![Screenshot (40)](https://github.com/user-attachments/assets/64883315-2384-4cc9-92f2-69e23858cd92)
 
