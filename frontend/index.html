@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Custom Notes App</h1>
+  </header>
+
+  <!-- Registration Form -->
+  <div id="registerForm" class="form-container">
+    <h2>Register</h2>
+    <form id="registerFormHandler">
+      <input type="text" id="newUsername" name="newUsername" placeholder="Username" required aria-label="Enter your username">
+      <input type="password" id="newPassword" name="newPassword" placeholder="Password" required aria-label="Enter your password">
+      <button type="submit">Register</button>
+    </form>
+    <p>Already registered? <a href="javascript:void(0);" id="showLogin">Login here</a></p>
+    <div id="registerError" style="color: red;"></div> <!-- Error message display -->
+  </div>
+
+  <!-- Login Form -->
+  <div id="loginForm" class="form-container" style="display:none;">
+    <h2>Login</h2>
+    <form id="loginFormHandler">
+      <input type="text" id="username" name="username" placeholder="Username" required aria-label="Enter your username">
+      <input type="password" id="password" name="password" placeholder="Password" required aria-label="Enter your password">
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="javascript:void(0);" id="showRegister">Register here</a></p>
+    <div id="loginError" style="color: red;"></div> <!-- Error message display -->
+  </div>
+
+  <!-- Notes List -->
+  <div id="notesList" style="display:none;">
+    <div class="header-notes">
+      <h2>Your Notes</h2>
+      <button id="logoutBtn">Logout</button>
+    </div>
+
+    <form id="createNoteForm" class="form-container">
+      <input type="text" id="title" placeholder="Note Title" required aria-label="Enter note title">
+      <input type="text" id="content" placeholder="Note Content" required aria-label="Enter note content">
+      <button type="submit">Create Note</button>
+    </form>
+
+    <div id="notes"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
